@@ -35,7 +35,7 @@ Welcome to my personal **developer portfolio**, built using modern technologies 
 ---
 
 ## 📁 Folder Structure
-
+```
 portfolio-react/
 ├── public/
 ├── src/
@@ -50,16 +50,51 @@ portfolio-react/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## 🚀 Getting Started
+Follow these steps to run the project locally:
 
-### 1. Clone the repository
+### ✅ Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/imran-ali-dev/portfolio-react.git
 cd portfolio-react
+```
 
-### 2. Install dependencies
+###✅ Step 2: Install dependencies
+Make sure you have Node.js and npm installed.
+
+```bash
 npm install
+```
+
+###✅ Step 3: Start the development server
+```
+npm run dev
+```
+This will start the app on:
+📍 http://localhost:5173
+
+###✅ Step 4: Build for production
+To create a production-ready build:
+```
+npm run build
+```
+
+This will output the optimized static files in the dist/ folder.
+
+To preview the production build locally:
+```
+npm run preview
+```
+###📬 Contact
+📧 Email: imran.ali@gmail.com
+
+🔗 LinkedIn: linkedin.com/in/imranali-dev
+
+###🐙 GitHub: github.com/imran-ali-dev
+
+###📄 License
+This project is licensed under the MIT License.
