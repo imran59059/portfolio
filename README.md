@@ -63,21 +63,21 @@ git clone https://github.com/imran-ali-dev/portfolio-react.git
 cd portfolio-react
 ```
 
-###✅ Step 2: Install dependencies
+### ✅ Step 2: Install dependencies
 Make sure you have Node.js and npm installed.
 
 ```bash
 npm install
 ```
 
-###✅ Step 3: Start the development server
+### ✅ Step 3: Start the development server
 ```
 npm run dev
 ```
 This will start the app on:
 📍 http://localhost:5173
 
-###✅ Step 4: Build for production
+### ✅ Step 4: Build for production
 To create a production-ready build:
 ```
 npm run build
@@ -89,12 +89,12 @@ To preview the production build locally:
 ```
 npm run preview
 ```
-###📬 Contact
+### 📬 Contact
 📧 Email: imran.ali@gmail.com
 
 🔗 LinkedIn: linkedin.com/in/imranali-dev
 
-###🐙 GitHub: github.com/imran-ali-dev
+### 🐙 GitHub: github.com/imran-ali-dev
 
-###📄 License
+### 📄 License
 This project is licensed under the MIT License.
