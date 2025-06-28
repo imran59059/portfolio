@@ -6,7 +6,7 @@ Welcome to my personal **developer portfolio**, built using modern technologies 
 
 ## 🌐 Live Demo
 
-👉 [Visit Portfolio](https://imranali.vercel.app)
+👉 [Visit Portfolio](https://imranali59059.xyz)
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to my personal **developer portfolio**, built using modern technologies 
 - 🗂️ Modular structure for easy scalability
 - 🔄 State management using **Redux Toolkit**
 - 📱 Fully responsive for mobile and desktop
-- 🌙 Light/Dark mode toggle (if included)
+- 🌙 Light/Dark mode toggle (with Multi Theme)
 
 ---
 
@@ -31,25 +31,33 @@ Welcome to my personal **developer portfolio**, built using modern technologies 
 | 🎬 Framer Motion| Declarative animations              |
 | 🔗 React Router | Routing between pages               |
 | 🧰 Redux Toolkit| Global state management             |
+| 🧾 TypeScript     | Strongly typed JavaScript               |
 
 ---
 
 ## 📁 Folder Structure
 ```
-portfolio-react/
-├── public/
-├── src/
-│ ├── assets/ # Images and icons
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Pages (Home, About, Contact, etc.)
-│ ├── redux/ # Redux setup (if used)
-│ ├── App.tsx
-│ └── main.tsx
-├── tailwind.config.js
-├── vite.config.ts
-├── .gitignore
-├── package.json
-└── README.md
+portfolio/
+├── 📂 public/ # Static files (e.g., favicon, images)
+├── 📂 src/
+│ ├── 📂 app/ # App-level setup (e.g., Redux store, providers)
+│ ├── 📂 assets/ # Images, icons, and media files
+│ ├── 📂 components/ # Reusable UI components
+│ ├── 📂 features/ # Feature-specific logic (e.g., auth, cart)
+│ ├── 📂 pages/ # Page components for routing (e.g., Home, About)
+│ ├── 📂 theme/ # Tailwind theme or style config
+│ ├── 📄 App.jsx # Main root component
+│ ├── 📄 main.jsx # Entry point for React (renders <App />)
+│ ├── 📄 App.css
+│ └── 📄 index.css
+├── 📄 .gitignore
+├── 📄 index.html # HTML template
+├── 📄 package.json
+├── 📄 package-lock.json
+├── 📄 tailwind.config.js # Tailwind CSS config
+├── 📄 vite.config.js # Vite build config
+├── 📄 eslint.config.js # ESLint rules
+└── 📄 README.md # Project documentation
 ```
 ---
 
@@ -59,8 +67,8 @@ Follow these steps to run the project locally:
 ### ✅ Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/imran-ali-dev/portfolio-react.git
-cd portfolio-react
+git clone https://github.com/imran59059/portfolio.git
+cd portfolio
 ```
 
 ### ✅ Step 2: Install dependencies
@@ -90,11 +98,11 @@ To preview the production build locally:
 npm run preview
 ```
 ### 📬 Contact
-📧 Email: imran.ali@gmail.com
+📧 Email: imranisactive@gmail.com
 
-🔗 LinkedIn: linkedin.com/in/imranali-dev
+🔗 LinkedIn: linkedin.com/in/imranali59059/
 
-### 🐙 GitHub: github.com/imran-ali-dev
+### 🐙 GitHub: github.com/imran59059
 
 ### 📄 License
 This project is licensed under the MIT License.
