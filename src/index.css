@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-imran-500: #FFF7F3;
+  --color-imrantext-500: #2D2F32;
+  --color-imrantextdark-500: #F3F3F3;
+  --color-imranbgdark-500: #0D0D0D;
+  --color-imranbgred-500: #b71d1d;
+  --color-imranbggreen-500: #00b34a;
+  --color-imranbgblue-500: #004cff;
+  --color-imranbgyellow-500: #ffee00;
+  --color-imranbgblack-500: #121212;
+}
+
+
+@layer base {
+  :root {
+    --color-primary: #004cff;
+    --color-secondary: green;
+    --color-bg-primary: #F3F3F3;
+    --color-text-base: #2D2F32;
+    --color-text-hover:rgb(0, 172, 32);
+  }
+
+  /* smooth transition when change color */
+  *{
+    @apply transition-colors duration-300 ease-in-out
+  }
+}
+  .theme-light {
+    --color-primary: black;
+    --color-secondary: gray;
+    --color-text-hover: #178573;
+    --color-text-base: #2D2F32;
+    --color-bg-primary: #FFF7F3;
+  }
+  .theme-dark {
+    --color-primary: black;
+    --color-secondary: gray;
+    --color-text-hover: #ffffff;
+    --color-text-base: #d8d8d8;
+    --color-bg-primary: #272727;
+  }
+
+  .theme-red {
+    --color-primary: rgb(174, 51, 51);
+    --color-secondary: rgb(230, 158, 24);
+    --color-text-hover: #ededed;
+    --color-text-base: #f5adad;
+    --color-bg-primary: #b71d1d;
+  }
+
+  .theme-green {
+    --color-primary: green;
+    --color-secondary: lime;
+    --color-text-hover: #ededed;
+    --color-text-base: #052e16;
+    --color-bg-primary: #00b34a;
+  }
+
+  .theme-yellow {
+    --color-primary: rgb(255, 208, 0);
+    --color-secondary: rgb(177, 180, 15);
+    --color-text-hover: #ededed;
+    --color-text-base: #052e16;
+    --color-bg-primary: #b3b300;
+  }
+
+  .theme-blue {
+    --color-primary: rgb(0, 200, 255);
+    --color-secondary: rgb(70, 148, 166);
+    --color-text-hover: #2b2b2b;
+    --color-text-base: #e9e9e9;
+    --color-bg-primary: #007db3;
+  }
