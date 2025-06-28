@@ -102,7 +102,7 @@ npm run preview
 
 🔗 LinkedIn: https://www.linkedin.com/in/imranali59059/
 
-### 🐙 GitHub: github.com/imran59059
+### 🐙 GitHub: https://github.com/imran59059
 
 ### 📄 License
 This project is licensed under the MIT License.
