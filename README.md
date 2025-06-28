@@ -100,7 +100,7 @@ npm run preview
 ### 📬 Contact
 📧 Email: imranisactive@gmail.com
 
-🔗 LinkedIn: linkedin.com/in/imranali59059/
+🔗 LinkedIn: https://www.linkedin.com/in/imranali59059/
 
 ### 🐙 GitHub: github.com/imran59059
 
