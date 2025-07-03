@@ -31,7 +31,6 @@ Welcome to my personal **developer portfolio**, built using modern technologies 
 | 🎬 Framer Motion| Declarative animations              |
 | 🔗 React Router | Routing between pages               |
 | 🧰 Redux Toolkit| Global state management             |
-| 🧾 TypeScript     | Strongly typed JavaScript               |
 
 ---
 
